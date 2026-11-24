@@ -1,20 +1,20 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
-  "name": "io.github.kramdayal-create/biodata-mcp",
+  "name": "io.github.root7-labs/biodata-mcp",
   "title": "BioData MCP",
   "description": "Cited biomedical research: search PubMed, ClinicalTrials.gov, UniProt and Ensembl from one server.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
-    "url": "https://github.com/kramdayal-create/biodata-mcp",
+    "url": "https://github.com/root7-labs/biodata-mcp",
     "source": "github"
   },
-  "websiteUrl": "https://github.com/kramdayal-create/biodata-mcp#readme",
+  "websiteUrl": "https://github.com/root7-labs/biodata-mcp#readme",
   "packages": [
     {
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "biodata-mcp",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "transport": { "type": "stdio" },
       "environmentVariables": [
         { "name": "NCBI_EMAIL", "description": "Your email, sent to NCBI with PubMed requests as they ask", "isRequired": false, "format": "string" },

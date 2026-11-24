@@ -1,6 +1,6 @@
 {
   "name": "biodata-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server that lets Claude, Cursor and other AI clients search PubMed, ClinicalTrials.gov, UniProt and Ensembl, with cited evidence packs.",
   "type": "module",
   "bin": {
@@ -33,16 +33,16 @@
   ],
   "license": "SEE LICENSE IN LICENSE",
   "author": "Root 7 (Pty) Ltd <hello@root7.co.za>",
-  "homepage": "https://github.com/kramdayal-create/biodata-mcp#readme",
+  "homepage": "https://github.com/root7-labs/biodata-mcp#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kramdayal-create/biodata-mcp.git"
+    "url": "git+https://github.com/root7-labs/biodata-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/kramdayal-create/biodata-mcp/issues",
+    "url": "https://github.com/root7-labs/biodata-mcp/issues",
     "email": "hello@root7.co.za"
   },
-  "mcpName": "io.github.kramdayal-create/biodata-mcp",
+  "mcpName": "io.github.root7-labs/biodata-mcp",
   "engines": {
     "node": ">=18.17"
   },

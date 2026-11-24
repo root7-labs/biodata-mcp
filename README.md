@@ -91,6 +91,6 @@ The key is checked with Polar, our payment provider, about once every six hours.
 
 ## Support
 
-Questions or bugs: [open an issue](https://github.com/kramdayal-create/biodata-mcp/issues) or email hello@root7.co.za.
+Questions or bugs: [open an issue](https://github.com/root7-labs/biodata-mcp/issues) or email hello@root7.co.za.
 
 BioData MCP is built by Root 7 (Pty) Ltd, South Africa.
