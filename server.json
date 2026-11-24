@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "name": "io.github.kramdayal-create/biodata-mcp",
+  "title": "BioData MCP",
+  "description": "Cited biomedical research: search PubMed, ClinicalTrials.gov, UniProt and Ensembl from one server.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/kramdayal-create/biodata-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/kramdayal-create/biodata-mcp#readme",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "biodata-mcp",
+      "version": "0.1.0",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        { "name": "NCBI_EMAIL", "description": "Your email, sent to NCBI with PubMed requests as they ask", "isRequired": false, "format": "string" },
+        { "name": "NCBI_API_KEY", "description": "Optional free NCBI API key for higher PubMed rate limits", "isRequired": false, "isSecret": true, "format": "string" },
+        { "name": "BIODATA_LICENSE_KEY", "description": "BioData MCP Pro licence key (optional)", "isRequired": false, "isSecret": true, "format": "string" }
+      ]
+    }
+  ]
+}

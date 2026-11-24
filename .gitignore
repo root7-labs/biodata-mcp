@@ -1,0 +1,8 @@
+node_modules/
+dist/
+# NEVER commit your licence signing key
+keys/
+*.pem
+
+# Internal launch notes
+LAUNCH.md
